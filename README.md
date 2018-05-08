@@ -8,7 +8,7 @@ sharm271@purdue.edu
 Abhishek Sharma<br>
 
 ## IMPORTANT
-This is not the original working repository. The original working repository was private, but I have copied the contents (execuding the authentication and api keys) so that anyone can take a look at my code. I wrote on all the code in the backend folder (except CalendarTrial.py). That code was for features 1 and 2 of the backend tech stack (further down this README).
+This is not the original working repository. The original working repository was private, but I have copied the contents (execuding the authentication and api keys) so that anyone can take a look at my code. I wrote on all the code in the backend folder (except CalendarTrial.py). That code was for features 1 and 2 of the backend tech stack (further down this README).I made about half of the 93 total commits to the original repository.
 
 ## Demo
 
