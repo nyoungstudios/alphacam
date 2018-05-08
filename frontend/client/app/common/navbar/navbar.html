@@ -1,0 +1,43 @@
+<md-toolbar class="md-hue-2 fixed-header">
+  <div class="md-toolbar-tools">
+    <md-button class="md-icon-button" aria-label="menu" ng-click="$ctrl.toggle()" ng-show="showSignout">
+      <md-icon class="material-icons">menu</md-icon>
+    </md-button>
+
+    <h2 flex md-truncate >Alphacam</h2>
+
+    <md-button class="md-icon-button" aria-label="Favorite">
+      <md-icon class="material-icons" style="color: greenyellow;">search</md-icon>
+    </md-button>
+
+    <md-button class="md-icon-button" aria-label="More">
+      <md-icon class="fas fa-th"></md-icon>
+    </md-button>
+  </div>
+</md-toolbar>
+
+<md-sidenav class="md-sidenav-left" md-component-id="left"
+             md-whiteframe="4">
+
+  <md-toolbar class="md-toolbar-tools">
+    <md-button class="md-icon-button" aria-label="More">
+      <md-icon class="fas fa-cog"></md-icon>
+    </md-button>
+    <span flex></span>
+    <md-button class="md-icon-button" aria-label="signout" ng-click="$ctrl.signout()">
+      <md-icon class="fas fa-sign-out-alt"></md-icon>
+    </md-button>
+  </md-toolbar>
+
+  <md-content layout-margin layout="column">
+    <md-button class="md-icon-button" aria-label="camera">
+      <md-icon class="fas fa-camera"></md-icon>
+    </md-button>
+    <md-button class="md-icon-button" aria-label="calendar">
+      <md-icon class="fas fa-calendar-alt"></md-icon>
+    </md-button>
+
+ 
+  </md-content>
+
+</md-sidenav>

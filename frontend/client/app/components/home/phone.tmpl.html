@@ -1,0 +1,30 @@
+<md-dialog aria-label="Phone varify">
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <h2>Phone Number</h2>
+
+    </div>
+  </md-toolbar>
+  <md-dialog-content layout="column">
+    <div class="md-dialog-content" layout="row">
+      <md-input-container class=" md-body-1" flex>
+        <!-- Use floating label instead of placeholder -->
+        <label>Phone Number</label>
+        <input ng-model="phone" type="tel">
+      </md-input-container>
+
+      
+    </div>
+    <div id='recaptcha'></div>
+    <p class="md-body-1 md-error">{{error}}</p>
+
+
+
+  </md-dialog-content>
+  <md-dialog-actions layout="row">
+
+    <md-button ng-click="submitPhone()">
+      Submit
+    </md-button>
+  </md-dialog-actions>
+</md-dialog>
